@@ -1,0 +1,37 @@
+.divisao {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: 0px;
+    height: auto;
+    width: auto;
+  }
+
+.menu {
+    height: auto;
+    width: auto;
+}
+
+.divisao_cadastro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    border-color: rgb(149, 147, 147);
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.div1 {
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    border-color: rgb(149, 147, 147);
+    border-style: solid;
+    border-width: 1px;
+}
+.estilo1 {
+    border-color: rgb(149, 147, 147);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
