@@ -1,37 +1,26 @@
-.divisao {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    margin: 0px;
-    height: auto;
-    width: auto;
-  }
-
-.menu {
-    height: auto;
-    width: auto;
+#wrap {
+    width: 960px;
+    margin: auto;
+    padding: 0px;
+    align-items: stretch;
 }
-
-.divisao_cadastro {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 100px;
-    border-color: rgb(149, 147, 147);
-    border-style: solid;
-    border-width: 1px;
-
+header nav ul{
+    list-style: none;
+    padding-left: 170px;
 }
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: ;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+} /* sublinhado abaixo do texto */ 
 
-.div1 {
-    display: grid;
-    grid-template-rows: 9fr 1fr;
-    border-color: rgb(149, 147, 147);
-    border-style: solid;
-    border-width: 1px;
-}
-.estilo1 {
-    border-color: rgb(149, 147, 147);
-    border-style: solid;
-    border-width: 1px;
-    font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
+
+
