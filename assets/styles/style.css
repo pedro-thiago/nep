@@ -1,40 +1,8 @@
-body{
-    font-family: Helvetica, sans-serif;
+.Linha1{
+    display: grid;
+    grid-area: 4/1/4/32;
+    row-gap: 5px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-bottom: 1px solid;
 }
-
-.rsrs{
-    width: 960px;
-    margin: auto;
-    height: auto;
-    line-height: auto; 
-    text-transform: uppercase;
-    text-align: end;
-    /position: absolute;
-    right: 0; */
-    background: #e3e3e3;
-    padding: 10 20px; 
-    cursor: pointer;
-    flex-wrap: wrap;
-}
-
-header nav ul{
-    list-style: none;
-    padding-left: 0;
-}
-
-header nav ul li{
-    display: inline-block;
-    margin-right: 10px;
-    flex-wrap: wrap;
-}
-
-header nav ul li a{
-    font-size: 8px;
-    color: #000000;
-    text-decoration: none;
-}
-
-header nav ul li a:hover{
-    text-decoration: underline;
-}
-
